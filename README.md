@@ -2,7 +2,7 @@
 
 # PHP Package Skeleton
 
-This skeleton is an example package using the standard filesystem structure as proposed by <https://github.com/php-pds/skeleton>.
+This skeleton is a concrete example package using the standard filesystem structure as proposed by <https://github.com/php-pds/skeleton>.
 In contrast to PDS Skeleton it adds some additional folders and files.
 
 ## Summary
@@ -43,9 +43,9 @@ The package contains the following scripts:
 
 ## Installation
 
-We use Composer to create a new project from this skeleton package. Simply run the following command: 
+To create a new project from based on this skeleton package simply run the following command: 
 
-    $ composer create-project tebe/php-package-skeleton myproject
+    $ composer create-project -s dev tebe/php-package-skeleton myproject
 
 The idea is to remove the parts from the created project that are not used or not useful for your project.
 
