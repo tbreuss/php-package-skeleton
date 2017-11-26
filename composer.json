@@ -20,8 +20,8 @@
   },
   "scripts": {
     "test": [
-      "phpunit",
-      "phpcs"
+      "@phpunit",
+      "@phpcs"
     ],
     "run": "php -S localhost:9999 -t public",
     "phpunit": "php vendor/bin/phpunit",

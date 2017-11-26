@@ -38,6 +38,8 @@ The package contains the following root-level files:
 
 ### docs/
 
+### examples/
+
 ### public/
 
 ### resources/
@@ -46,16 +48,48 @@ The package contains the following root-level files:
 
 ### tests/
 
+### vendor/
+
 ### Other Directories
 
 ## Root-Level Files
 
-### CHANGELOG
+### .gitignore
 
-### CONTRIBUTING
+### .travis.yml
+
+### CHANGELOG.md
+
+### .composer.json
+
+### .composer.lock
+
+### CONTRIBUTING.md
 
 ### LICENSE
 
-### README
+### mkdocs.yml
+
+### phpcs.xml
+
+### phpunit.xml
+
+### README.md
 
 ### Other Files
+
+## Scripts
+
+A script, in Composer's terms, is either a PHP callbacks or any command-line executable command.
+They are defined in the root `composer.json` package and are useful for executing a package's custom code or package-specific commands during the Composer execution process.
+
+The following scripts are defined:
+
+| Script                 | Description                                   |
+| ---------------------- | --------------------------------------------- |
+| `composer test`        | run minimal testsuite with phpunit and phpcs  |
+| `composer run`         | start webserver from public directory         |
+| `composer phpunit`     | run unit test                                 |
+| `composer phpcs`       | run php code sniffer                          |
+| `composer docs:build`  | build project documentation                   |
+| `composer docs:serve`  | server project documentation                  |
