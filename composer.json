@@ -1,6 +1,6 @@
 {
   "name": "tebe/php-package-skeleton",
-  "description": "Conrete PHP Package Skeleton with a Minimal Footprint",
+  "description": "Conrete PHP Package Skeleton using Best-Practices",
   "keywords": [
     "php",
     "package",
@@ -9,7 +9,8 @@
   ],
   "license": "MIT",
   "require": {
-    "php": ">=7.0.0"
+    "php": ">=7.0.0",
+    "apigen/apigen": "^4.1"
   },
   "require-dev": {
     "phpunit/phpunit": "^6.4",
@@ -30,6 +31,7 @@
     "phpunit": "php vendor/bin/phpunit",
     "phpcs": "php vendor/bin/phpcs",
     "docs:build": "mkdocs build",
-    "docs:serve": "mkdocs serve"
+    "docs:serve": "mkdocs serve",
+    "docs:api": "php vendor/bin/apigen generate --source src --destination docs/api"
   }
 }
