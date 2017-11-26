@@ -9,26 +9,26 @@ In contrast to PDS Skeleton it adds some additional folders and files.
 
 The package contains the following root-level directories:
 
-| Directory           | Description                                   |
-| ------------------- | --------------------------------------------- |
-| `bin/`              | command-line executables                      |
-| `config/`           | configuration files                           |
-| `docs/`             | documentation files                           |
-| `examples/`         | example files                                 |
-| `public/`           | web server files                              |
-| `resources/`        | other resource files                          |
-| `src/`              | PHP source code                               |
-| `tests/`            | test code                                     |
-| `vendor/`           | vendor files managed by composer              |
+| Directory              | Description                                   |
+| ---------------------- | --------------------------------------------- |
+| `bin/`                 | command-line executables                      |
+| `config/`              | configuration files                           |
+| `docs/`                | documentation files                           |
+| `examples/`            | example files                                 |
+| `public/`              | web server files                              |
+| `resources/`           | other resource files                          |
+| `src/`                 | PHP source code                               |
+| `tests/`               | test code                                     |
+| `vendor/`              | vendor files managed by composer              |
 
 The package contains the following root-level files:
 
-| Files               | Description                                   |
-| ------------------- | --------------------------------------------- |
-| `CHANGELOG.md`      | a log of changes between releases             |
-| `CONTRIBUTING.md/`  | guidelines for contributors                   |
-| `LICENSE/`          | licensing information                         |
-| `README.md/`        | information about the package itself          |
+| Files                  | Description                                   |
+| ---------------------- | --------------------------------------------- |
+| `CHANGELOG.md`         | a log of changes between releases             |
+| `CONTRIBUTING.md`      | guidelines for contributors                   |
+| `LICENSE`              | licensing information                         |
+| `README.md`            | information about the package itself          |
 
 The package contains the following scripts:
 
