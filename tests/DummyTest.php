@@ -1,6 +1,6 @@
 <?php
 
-namespace tebe\mvc\tests;
+namespace PackageTests;
 
 use PHPUnit\Framework\TestCase;
 
