@@ -174,6 +174,10 @@ You are free to add other root-level files for purposes not used in this skeleto
 A script, in Composer's terms, is either a PHP callbacks or any command-line executable command.
 They are defined in the root `composer.json` package and are useful for executing a package's custom code or package-specific commands during the Composer execution process.
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md)
+
 
 [1]: http://www.mkdocs.org
 [2]: https://phpunit.de
