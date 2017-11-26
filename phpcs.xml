@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="MVC coding standard">
-    <description>MVC coding standard</description>
+<ruleset name="Coding standards">
+    <description>Coding standards</description>
 
     <!-- display progress -->
     <arg value="p"/>
