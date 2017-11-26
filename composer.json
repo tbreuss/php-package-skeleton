@@ -1,6 +1,6 @@
 {
   "name": "tebe/php-package-skeleton",
-  "description": "PHP Package Skeleton",
+  "description": "Conrete PHP Package Skeleton with a Minimal Footprint",
   "keywords": [
     "php",
     "package",
