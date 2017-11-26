@@ -1,0 +1,7 @@
+docs_dir: docs/book
+site_dir: docs/html
+site_name: PHP Package Skeleton
+pages:
+    - Home: index.md
+    - About: about.md
+theme: readthedocs
