@@ -5,6 +5,14 @@
 This skeleton is a concrete example package using the standard filesystem structure as proposed by <https://github.com/php-pds/skeleton>.
 In contrast to PDS Skeleton it adds some additional folders and files.
 
+## Installation
+
+To create a new project based on this skeleton package simply run the following command: 
+
+    $ composer create-project -s dev tebe/php-package-skeleton myproject
+
+The idea is to remove the parts from the created project that are not used or not useful for your project.
+
 ## Summary
 
 The package contains the following root-level directories:
@@ -40,14 +48,6 @@ The package contains the following scripts:
 | `composer phpcs`       | run php code sniffer                          |
 | `composer docs:build`  | build project documentation                   |
 | `composer docs:serve`  | serv project documentation                    |
-
-## Installation
-
-To create a new project from based on this skeleton package simply run the following command: 
-
-    $ composer create-project -s dev tebe/php-package-skeleton myproject
-
-The idea is to remove the parts from the created project that are not used or not useful for your project.
 
 ## Root-Level Directories
 
