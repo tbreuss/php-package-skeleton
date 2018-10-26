@@ -1,4 +1,9 @@
-[![PDS Skeleton](https://img.shields.io/badge/pds-skeleton-blue.svg?style=flat-square)](https://github.com/php-pds/skeleton)
+[![Travis](https://img.shields.io/travis/tbreuss/php-package-skeleton.svg)](https://travis-ci.org/tbreuss/php-package-skeleton)
+[![Scrutinizer](https://img.shields.io/scrutinizer/g/tbreuss/php-package-skeleton.svg)](https://scrutinizer-ci.com/g/tbreuss/php-package-skeleton/)
+[![Packagist](https://img.shields.io/packagist/dt/tebe/php-package-skeleton.svg)](https://packagist.org/packages/tebe/php-package-skeleton)
+[![GitHub (pre-)release](https://img.shields.io/github/release/tbreuss/php-package-skeleton/all.svg)](https://github.com/tbreuss/php-package-skeleton/releases)
+[![License](https://img.shields.io/github/license/tbreuss/php-package-skeleton.svg)](https://github.com/tbreuss/php-package-skeleton/blob/master/LICENSE)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/tebe/php-package-skeleton.svg)](https://packagist.org/packages/tebe/php-package-skeleton)
 
 # PHP Package Skeleton
 
